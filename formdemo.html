@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="signupresult.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" value="raj" placeholder="username" maxlength="5" required >
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div>
+          <input type="hidden" name="hidden" id="hidden" value="123">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required minlength="8">
+      </div>
+      <div>
+          <label for="dateofbirth">Date of Birth</label>
+          <input type="date" name="dateofbirth" id="dateofbirth" min="1900-01-01" >
+      </div>
+      <div>
+          <label for="about">About</label>
+          <textarea name="about" id="about" cols="20" rows="4">About me...</textarea>
+      </div>
+      <div>
+         <input type="checkbox" name="smsalert" id="smsalert">
+         <label for="smsalert">SMS Alert</label>
+      </div>
+      <div>
+          <input type="checkbox" name="emailalert" id="emailalert">
+          <label for="emailalert">Email Alert</label>
+      </div>
+      <div>
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+      </div>
+      <div>
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+      </div>
+      <div>
+          <select name="state" id="state" multiple>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="AP" label="AP"></option>
+              <option value="Kerala">Kerala</option>
+          </select>
+      </div>
+      <div>
+          <label for="file">Resume</label>
+          <input type="file" id="file" name="file">
+      </div>
+      <!-- <button type="submit">Sign Up</button>  -->
+      <input type="image" src="submit.jpg" width="90">
+      <button type="reset">Reset</button>
+
+      
+  </form>
+</body>
+</html>

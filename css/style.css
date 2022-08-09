@@ -1,0 +1,98 @@
+body{
+    font-family:Georgia,'Times New Roman',Serif;
+    /* 1/125th of an inch */
+    font-size: 1.5em;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    font-weight:normal;
+    font-style:italic;
+    font-stretch:extra-expanded;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing:.25em;
+    word-spacing: .5em;
+    border:1px solid black;
+    width:200px;
+}
+
+p{
+    line-height: 1.5em;
+    text-align: justify;
+    /* text-indent:50px; */
+    /* border:1px solid black; */
+    /* border-width:10px; */
+    /* border-top-width:7px;
+    border-bottom-width:3px; */
+    /* border-style:solid dashed; */
+    /* border-top-style:double; */
+    /* border-color:black; */
+    width:400px;
+    /* max-height:300px;
+    overflow:scroll; */
+    background-color: antiquewhite;
+    /* text-shadow: 2px 2px 2px gray; */
+    padding:15px;
+    margin:20px auto 20px auto;
+    /* border: 1px solid black;
+    border-radius:80px 50px;
+    -moz-border-raius:80px 50px;
+    -webkit-border-radius:80px 50px;
+
+    box-shadow:10px 10px 10px gray;
+    -moz-box-shadow:10px 10px 10px gray;
+    -webkit-box-shadow: 10px 10px 5px 20px gray; */
+   
+    border:30px solid;
+    border-image:url("/media/border.png") 30 round;
+}
+
+.paradiv{
+    max-width:1500px;
+    min-width:700px;
+    border:1px solid blue;
+    
+}
+
+li{
+    display:inline-block;
+    margin:10px;
+}
+
+.coming-soon{
+    visibility:hidden;
+}
+a:link {
+    
+    color:blue;
+    border:1px solid black;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:hover{
+    color:pink;
+}
+
+a:focus{
+    color:green;
+}
+a:active{
+    color:deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

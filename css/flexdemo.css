@@ -1,0 +1,57 @@
+.outerbox{
+    background-color: beige;
+    min-height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width:180px;    
+    height: 180px;
+    background-color: blue;
+    border:2px solid white;
+}
+
+.box1{
+    flex:1 2 0px;
+}
+
+.box2{
+    flex-shrink: 2;
+}
+
+.box3{
+
+}
+
+.box4{
+  
+}
+
+.container{
+    display:flex;   
+}
+
+p{
+    padding:10px;
+}
+
+.para1{
+    background-color: aquamarine;
+    flex:1;
+    order:1;
+}
+
+.para2{
+    background-color:darksalmon;
+    flex:1;
+    order:3;
+}
+
+.para3{
+    background-color: cornsilk;
+    flex:2;
+    order:2; 
+}
+

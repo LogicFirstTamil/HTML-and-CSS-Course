@@ -1,0 +1,42 @@
+ul{
+    /* list-style-image: url("/media/star.gif"); */
+    /* list-style-position:outside; */
+    list-style: inside circle;
+}
+
+ol{
+    list-style-type:lower-roman;
+}
+
+li{
+    margin:10px;
+}
+
+table{
+    width:300px;
+    margin:auto;
+    border-spacing: 10px 20px;
+    border-collapse: collapse;
+ 
+}
+
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    border:1px solid black;
+}
+
+.amt{
+    text-align: right;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
